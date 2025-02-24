@@ -15,6 +15,7 @@ func SetupRoutes(app *fiber.App, productController *controllers.ProductControlle
 	productGroup.Get("/:id", productController.GetProductByID)
 	productGroup.Put("/:id", productController.UpdateProduct)
 	productGroup.Delete("/:id", productController.DeleteProduct)
+	productGroup.Post("/create-multiple", productController.CreateMultipleProducts)
 
 	//	Receipt Group
 	receiptGroup := app.Group("/receipts")
