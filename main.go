@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/aronipurwanto/go-sample-pos/controllers"
-	"github.com/aronipurwanto/go-sample-pos/database"
-	"github.com/aronipurwanto/go-sample-pos/repositories"
-	"github.com/aronipurwanto/go-sample-pos/routes"
-	"github.com/aronipurwanto/go-sample-pos/services"
+
+	"github.com/Kahffi/go-sample-pos/controllers"
+	"github.com/Kahffi/go-sample-pos/database"
+	"github.com/Kahffi/go-sample-pos/repositories"
+	"github.com/Kahffi/go-sample-pos/routes"
+	"github.com/Kahffi/go-sample-pos/services"
 	"github.com/gofiber/fiber/v2"
 )
 

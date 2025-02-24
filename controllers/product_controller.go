@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/aronipurwanto/go-sample-pos/models"
-	"github.com/aronipurwanto/go-sample-pos/services"
+	"github.com/Kahffi/go-sample-pos/models"
+	"github.com/Kahffi/go-sample-pos/services"
 	"github.com/gofiber/fiber/v2"
 )
 

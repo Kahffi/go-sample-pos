@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/aronipurwanto/go-sample-pos/controllers"
+	"github.com/Kahffi/go-sample-pos/controllers"
 	"github.com/gofiber/fiber/v2"
 )
 

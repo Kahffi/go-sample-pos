@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"github.com/aronipurwanto/go-sample-pos/models"
+	"github.com/Kahffi/go-sample-pos/models"
 	"gorm.io/gorm"
 )
 

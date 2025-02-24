@@ -1,10 +1,11 @@
 package database
 
 import (
-	"github.com/aronipurwanto/go-sample-pos/models"
+	"log"
+
+	"github.com/Kahffi/go-sample-pos/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"log"
 )
 
 var DB *gorm.DB

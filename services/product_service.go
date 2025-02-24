@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/aronipurwanto/go-sample-pos/models"
-	"github.com/aronipurwanto/go-sample-pos/repositories"
+	"github.com/Kahffi/go-sample-pos/models"
+	"github.com/Kahffi/go-sample-pos/repositories"
 )
 
 type ProductService interface {
